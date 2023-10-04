@@ -1,0 +1,66 @@
+
+body {
+    color: #470404;
+    font-size: 16px;
+    background-color: #352d0c;
+    font-family: "Stoke","verdana","liberation";
+   }
+   a:link { color:#DD0000; 
+    text-decoration:none;
+    }
+   a:visited { color:#CC0000; 
+    text-decoration:none; 
+    }
+   ol { line-height: 200%; 
+    }
+   ul {
+    line-height: 200%;
+    list-style-type: disc; 
+   }
+    header { 
+        margin-bottom: 1px;
+        float:left;
+       }
+       nav {
+        display:block; 
+        width: 150px; 
+        float: left;
+        margin-right: 10px;
+        font-weight: bold;
+        font-family: "Stoke","verdana","liberation";
+       }
+       section {
+        display:block; 
+        width: 76%;
+        float: right;
+       }
+       /*
+       * Estilo Header
+       */
+       .ender {
+        float: right;
+        text-align: right;
+        font-size: 15px;
+        line-height: 140%; 
+       }
+       img.imgLogo {
+
+        float: left;
+        padding-bottom: 10px; 
+        border-bottom: 3px solid;
+        margin-bottom: 6px;
+       }
+       /*
+       * Estilo Nav
+       */
+       nav ul {
+        color: #883322;
+        margin-top: 40px;
+        line-height: 230%; 
+       }
+* Estilo Seção Apresentação
+*/
+    div.apres {
+    text-align: center;
+    font-size: 18px;
+   }

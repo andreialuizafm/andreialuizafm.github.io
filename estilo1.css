@@ -1,0 +1,64 @@
+body{
+    color: black;
+    font-size: 16px;
+    background:url(Saude1.jpg);
+    background-image:cover;
+    font-family: verdana,liberation;   
+}
+#imagemFundo{
+        background:url(Saude1.png);
+        background-image: cover;
+        height: 100%;
+        text-align: center;
+        background-repeat: repeat;
+}
+
+header{
+    display:block;
+    margin-bottom: 1px;
+}
+
+nav{
+    display:block; 
+    width: 20%; 
+    float: left;
+}
+nav ul {
+    margin-top: 40px; 
+}
+
+li{
+    display: inline-block;
+}
+a:link{ color:#dd7600; text-decoration:none; 
+}
+
+a:visited{ color:#CC0000; text-decoration:none;
+
+}
+a:hover{
+    color:blue
+}
+div.apres{
+    text-align: center;
+    font-size: 18px;
+}
+div.apres1{
+    text-align: center;
+    font-size: 18px;
+}    
+.imgLogo{
+    padding-bottom: 15px; 
+    border-bottom: 3px;
+    margin-bottom: 6px
+}
+#footer{
+    background-color: rgb(138, 218, 162);
+    padding: 3px;
+    text-align:center;
+}
+p{
+    margin-right: 10px;
+    text-align: justify;
+
+}
