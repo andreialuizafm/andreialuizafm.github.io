@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(218, 216, 216);
+    font-family: "Poppins",sans-serif;
+}
+.main{
+    background-position: center;
+    height:100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.nav{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    border-bottom: 3px solid rgb(204,204,204);
+    overflow: hidden;
+    font-size: large;
+ 
+}
+.nav ul{
+    display:flex;
+    gap:24px;
+    justify-content:center;
+    padding-inline-start: 10px;
+
+}
+.pessoa{
+    color: black;
+    justify-content: center;
+}
+.pessoa_img{
+    display: flex;
+    align-items: center;   width:250px;
+    border-radius: 50%;
+    border: 8px solid yellowgreen;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+.pessoa_name{
+    font-size: 40px;
+    margin-bottom: 8px;
+    justify-content: center;
+
+}
+.pessoa_subtitulo{
+    font-size: 16px;
+    margin-bottom:40px ;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+}
+.info_box{
+    width: 340px;
+    height: 200px;
+    background: color #01ff0e;
+    padding: 24px;
+    border-radius: 32px;
+
+}
+.info_title{
+    font-size: 24px;
+    margin-bottom: 16px;
+
+}
+.redes-social{
+    display:flex;
+    gap:24px;
+    justify-content:center;
+
+
+}
+
